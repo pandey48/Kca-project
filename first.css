@@ -1,0 +1,184 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.main_div::before{
+    content: '';
+    background-image:  url(./image/ingredients-near-pizza.jpg);
+   
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 1px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    z-index: -1;
+    opacity: 0.8;
+    
+   
+    
+
+
+}
+.container-fluid{
+   
+    background: fixed;
+   
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.navbar-brand p::first-letter{
+    font-size: 30px;
+    color: rgb(238, 16, 16);
+}
+.navbar-brand p{
+    font-style: italic;
+    text-shadow: white 1px 3px 3px;
+   
+    
+}
+.navbar a:hover{
+    color: rgb(255, 230, 0);
+    text-decoration: underline;
+}
+
+.main-nav a{
+    color: rgb(247, 246, 246);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: rgb(170, 7, 61) 3px 3px 2px ;
+    font-size: larger;
+
+}
+.wc span{
+    
+    font-family: cursive;
+   
+    font-size: 60px;
+    color: #fdf9f9;
+    font-style: italic;
+    text-shadow:gold 2px 2px;
+}
+.name{
+    font-family: red serifs;
+    color: rgb(247, 246, 246);
+    font-size: 40px;
+    text-shadow: yellow 1px 1px;
+
+}
+.m1{
+    position: absolute;
+    z-index: 1;
+}
+.main-p{
+    color: #fdf9f9;
+    font-size: medium;
+    margin-left: 25%;
+    margin-right:15%;
+}
+.wave{
+    position: absolute;
+    background-color: rgb(46, 165, 42);
+    height: 100%;
+    width: 100%;
+   top: 0%;
+   left: 0%;
+   border-radius: 15px;
+   animation-name: wavex;
+   animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-direction: initial;
+  opacity: 0.1;
+  }
+   @keyframes wavex{
+    0%{
+       transform: scale(1,1);
+       opacity: o.5;
+
+    }
+    50%{
+        transform: scale(1.5,1.5);
+        opacity: 0.5;
+    }
+    100%{
+        transform: scale(1 ,1);
+        opacity: o.5;
+    }
+}
+.btn1{
+    position:static;
+    border-radius: 15px;
+           font-size: 30px;
+           padding: 5px 20px;
+           border: 2ps solid rgb(161, 17, 17);
+           position: relative;
+           margin-top: 40px;
+}
+.navbar-brand{
+   
+    background-color: goldenrod;
+    border-radius: 70%;
+   
+    font-size: xx-large;
+}
+.con-no{
+    margin-left: 50px;
+    margin-top: 85px;
+}
+main::content{
+    content: '';
+    background-image: url(./image/top-view-thanksgiving-food-border-with-copy-space.jpg);
+    position: fixed;
+   
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 1px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    z-index: -1;
+    opacity: 05;
+}
+.food-service{
+    background-image: url(./image/food.jpg);
+    height: 300px;
+    width:95%;
+    border-radius: 10px;
+    opacity: 0.8;
+    margin: 10px;
+    background-size: cover;
+    
+}
+.tent-decoration{
+    background-image: url(./image/tent.jpg);
+    height: 300px;
+    width: 95%;
+    border-radius: 10px;
+    opacity: 0.8;
+    margin: 10px;
+    background-size: cover;
+}
+.flower-decoration{
+    background-image: url(./image/flower-decoration-freshness-beautiful-ornament.jpg);
+    height: 300px;
+    width: 95%;
+    border-radius: 10px;
+    opacity: 0.8;
+    margin: 10px;
+    background-size: cover;
+}
+.service div :hover{
+  transform: scale(1.2);
+  color: #fdf9f9;
+  text-shadow: red 4px 4px 4px;
+
+
+}
+
+
+
